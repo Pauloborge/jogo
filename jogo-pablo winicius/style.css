@@ -1,5 +1,6 @@
 body{
-font-family: Arial;
+font-size: 25px;
+font-family:cursive;
 background:orange;
 color: white;
 display: flex;
@@ -8,8 +9,9 @@ margin-top: 100px;
 
 }
 .game{
-    background:black;
-    padding: 20px;
+font-size: 25px;
+background:black;
+padding: 20px;
 border-radius: 25px;
 text-align: center;
 }

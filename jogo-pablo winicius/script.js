@@ -5,10 +5,10 @@ function verificar() {
     let mensagem = document.getElementById("mensagem");
 
     if (palpite == numeroSecreto) {
-        mensagem.innerText = "voce acertou";
+        mensagem.innerText = "isso ai!";
     } else if (palpite < numeroSecreto) {
-        mensagem.innerText = "aumente o numero!";
+        mensagem.innerText = "mais!";
     } else {
-        mensagem.innerText = "diminua o numero!"
+        mensagem.innerText = "menos!"
     }
 }
